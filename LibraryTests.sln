@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ioc", "Ioc", "{75A28EE6-B23
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orm", "Orm", "{948FAC29-BD1F-41D6-A52D-654632D54F41}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mapper", "Mapper", "{2667B2AD-E914-458A-9890-02918B86936F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyMapperTest", "TinyMapperTest\TinyMapperTest.csproj", "{3B8FA771-9721-45A5-B12A-5F9B7A56C9E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{AF8C14CC-CA5A-4F9E-9D74-82D68985DA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8C14CC-CA5A-4F9E-9D74-82D68985DA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8C14CC-CA5A-4F9E-9D74-82D68985DA76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8FA771-9721-45A5-B12A-5F9B7A56C9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8FA771-9721-45A5-B12A-5F9B7A56C9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8FA771-9721-45A5-B12A-5F9B7A56C9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8FA771-9721-45A5-B12A-5F9B7A56C9E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9F19606D-485F-400E-A01F-A171F2309238} = {948FAC29-BD1F-41D6-A52D-654632D54F41}
 		{AF8C14CC-CA5A-4F9E-9D74-82D68985DA76} = {75A28EE6-B239-4934-AB2E-5E67117E15DC}
+		{3B8FA771-9721-45A5-B12A-5F9B7A56C9E7} = {2667B2AD-E914-458A-9890-02918B86936F}
 	EndGlobalSection
 EndGlobal
