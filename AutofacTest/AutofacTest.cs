@@ -19,6 +19,8 @@ namespace AutofacTest
         public void RegisterType_InstancePerDependency_Test()
         {
             var builder = new ContainerBuilder();
+
+            //默认模式InstancePerDependency
             builder.RegisterType<FakeClass>().As<IFakeClass>().InstancePerDependency();
 
             var container = builder.Build();
